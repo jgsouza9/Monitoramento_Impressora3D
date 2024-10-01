@@ -19,15 +19,9 @@
                 <div class="input-container">
                     <input type="text" name="ip_address" placeholder="Digite seu IP">
                 </div>
-                <button class="button" type="submit">Entrar</button>
+                <button class="button" id="btnEnviar" type="submit">Entrar</button>
                 @if($errors->any())
-                    <div class="alert alert-danger">
-                        <ul>
-                            @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
+                    @include('accessDenied')
                 @endif
             </div>
         </form>
