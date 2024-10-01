@@ -8,7 +8,8 @@ export default defineConfig({
                 'resources/js/app.js',
                 'resources/css/cameraPage.css',
                 'resources/css/loginPage.css',
-                'resources/css/accessDenied.css'
+                'resources/css/accessDenied.css',
+                'resources/js/modalAccessDenied.js'
             ],
             refresh: true,
         }),
