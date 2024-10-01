@@ -7,6 +7,7 @@
     <title>Hawkin - Entrar</title>
 
     @vite('resources/css/loginPage.css')
+    @vite('resources/js/modalAccessDenied.js')
 </head>
 <body>
     <div class ="containerOut">
